@@ -1,0 +1,61 @@
+body {
+font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Prata', serif;
+}
+
+/*-----Navigation bar------*/
+.my-navigation {
+    height: 100px;
+}
+
+.my-nav-links {
+    color: black;
+    margin: 0px 20px;
+}
+
+.my-nav-links:hover, .my-drop-item:hover {
+    background-color: #F79B9B;
+    color: white;
+}
+
+.header-img {
+    background-image: url('palms.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: auto;
+    height: 500px;
+
+
+    
+}
+
+.header-img > h1 {
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 90px;
+    background-color: beige;
+}
+
+/*------About me section-------*/
+.about-me {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.top-image-cont {
+
+}
+
+hr.rounded {
+    width: 150px;
+    border-top: 3px solid #F79B9B;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+  }
