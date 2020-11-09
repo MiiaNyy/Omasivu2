@@ -6,6 +6,12 @@ h1, h2 {
     font-family: 'Prata', serif;
 }
 
+footer {
+    width: auto;
+    background-color: #f2906d;
+    height: 100px;
+}
+
 /*-----Navigation bar------*/
 .my-navigation {
     height: 100px;
@@ -38,7 +44,7 @@ h1, h2 {
     text-align: center;
     font-family: 'Prata', serif;
     font-size: 90px;
-    background-color: beige;
+    background-color: white;
 }
 
 /*------About me section-------*/
@@ -74,12 +80,4 @@ hr.rounded {
     margin: 100px 0;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-  }
+
