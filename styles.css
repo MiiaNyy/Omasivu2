@@ -17,7 +17,7 @@ h1, h2 {
 }
 
 .my-nav-links:hover, .my-drop-item:hover {
-    background-color: #F79B9B;
+    background-color: #f2906d;
     color: white;
 }
 
@@ -28,7 +28,7 @@ h1, h2 {
     background-attachment: fixed;
     background-position: bottom;
     width: auto;
-    height: 500px;
+    height: 800px;
 
 
     
@@ -45,17 +45,41 @@ h1, h2 {
 .about-me {
     text-align: center;
     margin-top: 50px;
-
 }
 
-.top-image-cont {
 
-}
 
 hr.rounded {
     width: 150px;
-    border-top: 3px solid #F79B9B;
+    border-top: 3px solid #f2906d;
     border-radius: 5px;
     margin-bottom: 50px;
 
+}
+
+/*What I do section*/
+.middle-divider {
+    text-align: center;
+    background-color: #90afa7;
+    width: auto;
+    
+}
+
+.bottom-image-cont > img {
+    max-height: 400px;
+
+}
+
+.text-cont {
+    margin: 100px 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
   }
