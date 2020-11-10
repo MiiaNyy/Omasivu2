@@ -15,11 +15,10 @@ footer {
 }
 
 
-
-
 /*-----Navigation bar------*/
 .my-navigation {
     max-height: 100px;
+
 }
 
 .my-nav-links {
@@ -35,7 +34,7 @@ footer {
 
 /*----------Header-----------*/
 .header-img {
-    background-image: url('palms.jpg');
+    background-image: url("/Kuvat/palms.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -67,10 +66,8 @@ footer {
     height: 700px;
 }
 
-.about-me-img {
-    width: 50%; 
-    height: 50%; 
-    object-fit: contain;
+.about-me-img {    
+   object-fit: contain;
 }
 
 
@@ -87,7 +84,8 @@ footer {
 .bottom-image-cont > img {
     width: 100%; 
     height: 100%; 
-    object-fit: contain;}
+    object-fit: contain;
+}
 
 .text-cont {
     margin: 100px 0;
@@ -120,39 +118,6 @@ footer {
     margin-bottom: 30px;
 }
 
-@media (max-width: 790px) {
-    /*Navigation to the smaller screen*/
-    .my-navigation {
-        height: 60px;
-        text-align: center;
-    }
-
-    .my-nav-links {
-        margin: 0px 0px;
-    }
-
-    .my-logo {
-        display: none;
-    }
-
-    .header-img > h1 {
-        font-size: 50px ;
-        height: 100px;
-    }
-    .about-me-img {
-        margin-bottom: 20px;
-        padding-left: 50px;
-
-    }
-    .bottom-image-cont {
-        width: 50%; 
-        height: 50%; 
-        object-fit: contain;
-    }
-    
-
-}
-
 @media (max-width:1660px) {
     .about-me {
         width: auto;
@@ -172,4 +137,46 @@ footer {
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 770px) {
+    /*Navigation to the smaller screen*/
+    .my-navigation {
+        font-size: 12px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .my-nav-links {
+        margin: 0px 0px;
+    }
+
+    .my-logo {
+        display: none;
+    }
+
+    .my-dropdown-menu {
+        width: auto;
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .header-img > h1 {
+        font-size: 50px ;
+        height: 150px;
+    }
+    .about-me-img {
+        margin-bottom: 20px;
+        padding-left: 50px;
+
+    }
+    .bottom-image-cont {
+        width: 50%; 
+        height: 50%; 
+        object-fit: contain;
+    }
+    
+
+}
+
+
 

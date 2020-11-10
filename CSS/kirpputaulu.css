@@ -1,0 +1,36 @@
+.container {
+    width: 50%;
+    margin: 100px auto;    
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+table.main-table {
+  width: 100%;
+  background-color: #fde0c1;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-style: double;
+  color: #463333;
+}
+
+table.main-table td, table.main-table th {
+  border-width: 10px;
+  border-color:  #aa7171;
+  border-style: solid;
+  padding: 20px;
+}
+
+table.main-table thead {
+  background-color:  #ffa998;
+}
+
+th {
+    font-size: larger;
+}
+
+.text {
+    background-color: #ebc4c4;
+}
+

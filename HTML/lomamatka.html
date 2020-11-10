@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Ajanvarauslomake</title>
+    <link rel="stylesheet" href="/CSS/lomake.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content-container">
+        <div class="header">
+            <h1>Lomamatkan varauslomake</h1>
+            <p>Oletko kyllästynyt pimeneviin ja kylmeneviin iltoihin? Ei hätää, valitse tästä mitä haluat täydelliseltä lomamatkaltasi ja me etsimme sen sinulle.</p> 
+        </div>
+
+            <form>
+                <div class="main">
+
+                    <div class="name-container">                        
+                            <label for="whole-name"> Nimi <br>
+                                <input type="text" id="whole-name" name="whole-name" placeholder="Maija Meikäläinen" required>
+                            </label>
+                    </div>
+
+                    
+
+                    <div class="email-container">
+                        <label for="email"> Sähköposti <br>
+                            <input type="email" id="email" name="email" placeholder="maija.meikalainen@testi.fi"  
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> 
+                        </label>
+                    </div>
+
+                   
+
+                    <div class="where-to-container">
+                        <label for="type-of-holiday">Missä haluat viettää lomasi?
+                            <select name="type-of-holiday" id="type-of-holiday">
+                                <option value="beach">Rannalla</option>
+                                <option value="city">Kaupungissa</option>
+                                <option value="desser">Aavikolla</option>
+                                <option value="sea">Merellä</option>
+                                <option value="glacier">Jäätiköllä</option>
+                            </select>
+                        </label>
+                    </div>
+
+                 
+
+                    <div class="checkbox-container">
+                        <label>Minne haluaisit matkustaa?</label> 
+                        <br>
+                        <input type="checkbox" id="europe" name="where-to" value="europe"checked>
+                        <label for="europe">Eurooppaan</label>
+                        <br>
+                        
+                        <input type="checkbox" id="africa" name="where-to" value="africa">
+                        <label for="africa">Afrikkaan</label>
+                        <br>
+                       
+                        <input type="checkbox" id="asia" name="where-to" value="asia">
+                        <label for="asia">Aasiaan</label>
+                        <br>
+                        
+                        <input type="checkbox" id="north-america" name="where-to" value="north-america">
+                        <label for="north-america">Pohjois-Amerikkaan</label>
+                        <br>
+                        
+                        <input type="checkbox" id="south-america" name="where-to" value="south-america">
+                        <label for="south-america">Etelä-Amerikkaan</label>
+                        <br>
+                        
+                        <input type="checkbox" id="australia" name="where-to" value="australia">
+                        <label for="australia">Australiaan</label>
+                        <br>
+                        
+                        <input type="checkbox" id="antarctica" name="where-to" value="antarctica">
+                        <label for="antarctica">Etelänavalle</label>
+                    </div>
+
+               
+
+                    <div class="how-long-container">
+                        <label for="how-long">Kuinka kauan haluat olla reissussa? 
+                            <select name="how-long" id="how-long">
+                                <option value="less-than-month">1-3 viikkoa</option>
+                                <option value="couple-months">1-3 kuukautta</option>
+                                <option value="three-six-months">3-6 kuukautta</option>
+                                <option value="one-year">1 vuoden</option>
+                                <option value="more-than-one-year">Enemmän kuin yhden vuoden</option>
+                            </select>
+                        </label>
+                    </div>
+                      
+             
+
+                    <div class="budget-container">
+                        <label>Mikä on kuukausibudjettisi?</label>
+                        <br>
+                        <input type="radio" id="very-low" name="budget" value="very-low" checked>
+                        <label for="very-low">500€/kk</label>
+                        
+                        <br>
+                        
+                        <input type="radio" id="low" name="budget" value="low">
+                        <label for="low">1000€/kk</label>
+                        
+                        <br>
+                        
+                        <input type="radio" id="medium" name="budget" value="medium">
+                        <label for="medium">2000€/kk</label>
+                        
+                        <br>
+                        <input type="radio" id="high" name="budget" value="high">
+                        <label for="high">3000€/kk</label>
+                    </div>
+
+              
+
+                    <div class="date-container">
+                        <label for="date">Milloin voit lähteä?</label> <br>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                  
+
+                    <div class="submit-container">
+                        <input type="submit" value="Submit">
+                    </div>
+
+                </div>
+            </form>
+        </div>            
+    </body>
+</html>

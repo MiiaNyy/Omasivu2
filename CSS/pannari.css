@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 50%;    
+    background-color:#f7d794 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #c44569;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    width: 40%;
+    float: right;
+}
+
+footer {
+    font-style: italic;
+    padding-bottom: 50px;
+}

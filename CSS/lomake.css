@@ -1,0 +1,88 @@
+body {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 50%;    
+    background-color:#ffcccc ;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
+
+div {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px 20px; 
+  }
+
+label {
+  font-size: large;
+}
+
+input[type=text],[type=email],[type=date] {
+  width: 100%;
+  padding: 10px;
+  
+
+}
+
+select {
+  width: 534px;
+  padding: 10px;  
+  
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+
+}
+
+input[type=checkbox] {
+  margin: 5px;
+
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #7d5fff;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5642b3;
+  }
+
+.content-container {
+    width: 800px;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-image: url("/Kuvat/Screenshot\ 2020-10-29\ 114524.png");  
+    background-position: center; 
+    background-size: cover; 
+    padding: 20px;
+    
+}
+
+.header {
+  margin-bottom: 20px;;
+}
+
+  .header {
+    text-align: center;
+  }
+
+
+
+
