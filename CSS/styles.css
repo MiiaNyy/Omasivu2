@@ -1,3 +1,4 @@
+/*-----Universal Styles----*/
 body {
 font-family: 'Lato', sans-serif;
 }
@@ -7,12 +8,7 @@ h1, h2 {
     text-align: center;
 }
 
-footer {
-    width: auto;
-    background-color: #f2906d;
-    height: 100px;
-    font-style: italic;
-}
+
 
 
 /*-----Navigation bar------*/
@@ -32,12 +28,14 @@ footer {
 }
 
 
+
+
 /*----------Header-----------*/
 .header-img {
     background-image: url(../Kuvat/palms.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
     background-position: bottom;
     width: auto;
     height: 800px;    
@@ -52,12 +50,16 @@ footer {
     height: 150px;
 }
 
+
+/*----------Separator-----------*/
 .rounded {
     width: 150px;
     border-top: 3px solid #f2906d;
     border-radius: 5px;
     margin-bottom: 50px;
 }
+
+
 
 /*------About me section-------*/
 .about-me {
@@ -69,6 +71,8 @@ footer {
 .about-me-img {
     margin-bottom: 20px;
 }
+
+
 
 /*-------What I do section---------*/
 .what-i-do-section {
@@ -89,10 +93,14 @@ footer {
     margin: 100px 0;
 }
 
-/*------Form-----*/
+
+
+/*------------Form----------*/
 .my-forms {
     margin-bottom: 50px;
 }
+
+
 
 /*Header*/
 .contact-section {
@@ -110,19 +118,34 @@ footer {
     margin: 20px;
 }
 
-
 /*Headers separator*/
 #contact-me-separator {
     margin-bottom: 30px;
 }
 
+
+
+/*--------Footer-------*/
+.copyright {
+    background-color: #bb5e3c;
+}
+
+.my-footer {
+    width: auto;
+    background-color: #f2906d;
+    height: 100px;
+    font-style: italic;
+}
+
+
+
+/*---------Media Querys-------------*/
 @media (max-width:1660px) {
     .about-me {
         width: auto;
         height: auto;
         margin:20px 20px;
     }
-
 
     .extra-divider {
         display: none;
@@ -133,6 +156,7 @@ footer {
     }
 }
 
+/*---------Media query for smaller screen---------*/
 @media (max-width: 770px) {
     /*Navigation to the smaller screen*/
     .my-navigation {
@@ -159,7 +183,7 @@ footer {
         font-size: 50px ;
         height: 150px;
     }
- 
+
     .bottom-image-cont, .about-me-img {
         width: 50%; 
         height: 50%; 
