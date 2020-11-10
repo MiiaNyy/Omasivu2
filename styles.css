@@ -4,6 +4,7 @@ font-family: 'Lato', sans-serif;
 
 h1, h2 {
     font-family: 'Prata', serif;
+    text-align: center;
 }
 
 footer {
@@ -45,6 +46,8 @@ footer {
     font-family: 'Prata', serif;
     font-size: 90px;
     background-color: white;
+    padding-top: 10px;
+    height: 150px;
 }
 
 /*------About me section-------*/
@@ -63,7 +66,7 @@ hr.rounded {
 
 }
 
-/*What I do section*/
+/*-------What I do section---------*/
 .middle-divider {
     text-align: center;
     background-color: #90afa7;
@@ -81,11 +84,27 @@ hr.rounded {
 }
 
 /*------Form-----*/
-.my-forms{
-    margin: 100px 0;
+.my-forms {
+    margin-bottom: 50px;
 }
 
+/*Header*/
+.contact-section {
+    margin-top: 100px;
+    text-align: center;
+}
+/*Header paraghraph*/
+.contact-section > p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+/*Submit button*/
 .my-button { 
     margin: 20px;
 }
 
+/*Headers separator*/
+#contact-me-separator {
+    margin-bottom: 30px;
+}
