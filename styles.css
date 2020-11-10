@@ -1,3 +1,8 @@
+
+
+
+
+
 body {
 font-family: 'Lato', sans-serif;
 }
@@ -11,11 +16,15 @@ footer {
     width: auto;
     background-color: #f2906d;
     height: 100px;
+    font-style: italic;
 }
+
+
+
 
 /*-----Navigation bar------*/
 .my-navigation {
-    height: 100px;
+    max-height: 100px;
 }
 
 .my-nav-links {
@@ -28,6 +37,8 @@ footer {
     color: white;
 }
 
+
+/*----------Header-----------*/
 .header-img {
     background-image: url('palms.jpg');
     background-repeat: no-repeat;
@@ -35,10 +46,7 @@ footer {
     background-attachment: fixed;
     background-position: bottom;
     width: auto;
-    height: 800px;
-
-
-    
+    height: 800px;    
 }
 
 .header-img > h1 {
@@ -54,30 +62,35 @@ footer {
 .about-me {
     text-align: center;
     margin-top: 50px;
+    height: 700px;
 }
 
+.about-me-img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;}
+}
 
-
-hr.rounded {
+.rounded {
     width: 150px;
     border-top: 3px solid #f2906d;
     border-radius: 5px;
     margin-bottom: 50px;
-
 }
 
 /*-------What I do section---------*/
-.middle-divider {
+.what-i-do-section {
     text-align: center;
     background-color: #90afa7;
     width: auto;
+    height: auto;
     
 }
 
 .bottom-image-cont > img {
-    max-height: 400px;
-
-}
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;}
 
 .text-cont {
     margin: 100px 0;
@@ -104,7 +117,61 @@ hr.rounded {
     margin: 20px;
 }
 
+
 /*Headers separator*/
 #contact-me-separator {
     margin-bottom: 30px;
 }
+
+@media (max-width: 790px) {
+    /*Navigation to the smaller screen*/
+    .my-navigation {
+        height: 60px;
+        text-align: center;
+    }
+
+    .my-nav-links {
+        margin: 0px 0px;
+    }
+
+    .my-logo {
+        display: none;
+    }
+
+    .header-img > h1 {
+        font-size: 50px ;
+        height: 100px;
+    }
+    .about-me-img {
+        margin-bottom: 20px;
+        padding-left: 50px;
+
+    }
+    .bottom-image-cont {
+
+    }
+    
+
+}
+
+@media (max-width:1660px) {
+    .about-me {
+        width: auto;
+        height: auto;
+        margin:20px 20px;
+
+    }
+
+    .about-me-img {
+        height: 500px;
+        margin-right: 50px;
+    }
+    .extra-divider {
+        display: none;
+    }
+
+    .text-cont {
+        margin-bottom: 0;
+    }
+}
+
