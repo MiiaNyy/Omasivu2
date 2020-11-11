@@ -68,7 +68,7 @@ input[type=submit] {
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    background-image: url("/Kuvat/Screenshot\ 2020-10-29\ 114524.png");  
+    background-image: url("kuvat/Screenshot/2020-10-29/114524.png");  
     background-position: center; 
     background-size: cover; 
     padding: 20px;
